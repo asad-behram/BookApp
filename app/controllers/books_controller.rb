@@ -6,7 +6,7 @@ class BooksController < ApplicationController
 
 	def show
 		@book = current_author.books.find(params[:id])
-		# @book = @author.book.all(book_params)
+		
 	end
 
 	def new
